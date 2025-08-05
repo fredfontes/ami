@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+	<html lang="pt-BR">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Formulário de registro &lsaquo; Estúdio AMI &#8212; WordPress</title>
+	<meta name='robots' content='noindex, follow' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='preconnect' href='//i0.wp.com' />
+<link rel='preconnect' href='//c0.wp.com' />
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" id="woocommerce-google-analytics-integration-gtag-js-after">
+/* <![CDATA[ */
+/* Google Analytics for WooCommerce (gtag.js) */
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					// Set up default consent state.
+					for ( const mode of [{"analytics_storage":"denied","ad_storage":"denied","ad_user_data":"denied","ad_personalization":"denied","region":["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","LV","LI","LT","LU","MT","NL","NO","PL","PT","RO","SK","SI","ES","SE","GB","CH"]}] || [] ) {
+						gtag( "consent", "default", { "wait_for_update": 500, ...mode } );
+					}
+					gtag("js", new Date());
+					gtag("set", "developer_id.dOGY3NW", true);
+					gtag("config", "G-4GNVE050SV", {"track_404":true,"allow_google_signals":true,"logged_in":false,"linker":{"domains":["estudioami.com.br"],"allow_incoming":false},"custom_map":{"dimension1":"logged_in"}});
+/* ]]> */
+</script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LcygNApAAAAAKBPSMf_QJcBfLbUHR65dh6eVfCa&amp;ver=6.8.2" id="wordfence-ls-recaptcha-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" id="wordfence-ls-login-js-extra">
+/* <![CDATA[ */
+var WFLS_LOGIN_TRANSLATIONS = {"Message to Support":"Mensagem para o suporte","Send":"Enviar","An error was encountered while trying to send the message. Please try again.":"Um erro foi encontrado ao tentar enviar a mensagem. Tente novamente.","<strong>ERROR<\/strong>: An error was encountered while trying to send the message. Please try again.":"<strong>ERRO<\/strong>: um erro foi encontrado ao tentar enviar a mensagem. Tente novamente.","Login failed with status code 403. Please contact the site administrator.":"Login failed with status code 403. Please contact the site administrator.","<strong>ERROR<\/strong>: Login failed with status code 403. Please contact the site administrator.":"<strong>ERROR<\/strong>: Login failed with status code 403. Please contact the site administrator.","Login failed with status code 503. Please contact the site administrator.":"Login failed with status code 503. Please contact the site administrator.","<strong>ERROR<\/strong>: Login failed with status code 503. Please contact the site administrator.":"<strong>ERROR<\/strong>: Login failed with status code 503. Please contact the site administrator.","Wordfence 2FA Code":"C\u00f3digo de 2FA do Wordfence","Remember for 30 days":"Lembrar por 30 dias","Log In":"Acessar","<strong>ERROR<\/strong>: An error was encountered while trying to authenticate. Please try again.":"<strong>ERRO<\/strong>: um erro foi encontrado ao tentar autenticar. Tente novamente.","The Wordfence 2FA Code can be found within the authenticator app you used when first activating two-factor authentication. You may also use one of your recovery codes.":"O c\u00f3digo 2FA do Wordfence pode ser encontrado no aplicativo autenticador que voc\u00ea usou ao ativar a autentica\u00e7\u00e3o de dois fatores pela primeira vez. Voc\u00ea tamb\u00e9m pode usar um de seus c\u00f3digos de recupera\u00e7\u00e3o."};
+var WFLSVars = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"cffb6632c6","recaptchasitekey":"6LcygNApAAAAAKBPSMf_QJcBfLbUHR65dh6eVfCa","useCAPTCHA":"1","allowremember":"1","verification":null};
+/* ]]> */
+</script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-content/plugins/wordfence/modules/login-security/js/login.1744125809.js?ver=1.1.15" id="wordfence-ls-login-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3" id="jquery-ui-mouse-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.3" id="jquery-ui-sortable-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/jquery/ui/resizable.min.js?ver=1.13.3" id="jquery-ui-resizable-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" id="acf-js-extra">
+/* <![CDATA[ */
+var acfL10n = {"Are you sure?":"Voc\u00ea tem certeza?","Yes":"Sim","No":"N\u00e3o","Remove":"Remover","Cancel":"Cancelar","The changes you made will be lost if you navigate away from this page":"As altera\u00e7\u00f5es feitas ser\u00e3o perdidas se voc\u00ea sair desta p\u00e1gina","Validation successful":"Valida\u00e7\u00e3o bem-sucedida","Validation failed":"Falha na valida\u00e7\u00e3o","1 field requires attention":"1 campo requer aten\u00e7\u00e3o","%d fields require attention":"%d campos requerem aten\u00e7\u00e3o","Edit field group":"Editar grupo de campos","Select Image":"Selecionar imagem","Edit Image":"Editar imagem","Update Image":"Atualizar imagem","All images":"Todas as imagens","Select File":"Selecionar arquivo","Edit File":"Editar arquivo","Update File":"Atualizar arquivo","Maximum values reached ( {max} values )":"M\u00e1ximo de valores alcan\u00e7ado ({max} valores)","Loading":"Carregando","No matches found":"N\u00e3o foi poss\u00edvel encontrar correspond\u00eancias","Sorry, this browser does not support geolocation":"O seu navegador n\u00e3o suporta o recurso de geolocaliza\u00e7\u00e3o","Select.verb":"Selecionar","Edit.verb":"Editar","Update.verb":"Atualizar","Uploaded to this post":"Enviado para este post","Expand Details":"Expandir detalhes","Collapse Details":"Recolher detalhes","Restricted":"Restrito"};
+/* ]]> */
+</script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-content/plugins/advanced-custom-fields/assets/build/js/acf.min.js?ver=6.4.3" id="acf-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2025-04-09 14:35:11+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"pt_BR"},"Notifications":["Notifica\u00e7\u00f5es"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+/* ]]> */
+</script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-content/plugins/advanced-custom-fields/assets/build/js/acf-input.min.js?ver=6.4.3" id="acf-input-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-content/plugins/advanced-custom-fields/assets/inc/select2/4/select2.full.min.js?ver=4.0.13" id="select2-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-content/plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.min.js?ver=1.6.1" id="acf-timepicker-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3" id="jquery-ui-draggable-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.3" id="jquery-ui-slider-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-includes/js/jquery/jquery.ui.touch-punch.js?ver=0.2.2" id="jquery-touch-punch-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-admin/js/iris.min.js?ver=6.8.2" id="iris-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" id="wp-color-picker-js-extra">
+/* <![CDATA[ */
+var wpColorPickerL10n = {"clear":"Limpar","defaultString":"Padr\u00e3o","pick":"Selecionar Cor"};
+/* ]]> */
+</script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" id="wp-color-picker-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2025-05-05 11:53:58+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"pt_BR"},"Clear color":["Limpar cor"],"Select default color":["Selecionar cor padr\u00e3o"],"Color value":["Cor"],"Select Color":["Selecionar cor"],"Clear":["Limpar"],"Default":["Padr\u00e3o"]}},"comment":{"reference":"wp-admin\/js\/color-picker.js"}} );
+/* ]]> */
+</script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-admin/js/color-picker.min.js?ver=6.8.2" id="wp-color-picker-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-content/plugins/advanced-custom-fields/assets/inc/color-picker-alpha/wp-color-picker-alpha.js?ver=3.0.0" id="acf-color-picker-alpha-js"></script>
+<link rel='stylesheet' id='all-css-640d2562ee8efb922bd646793b2ffaf5' href='https://estudioami.com/_jb_static/??8e807cc8e2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://estudioami.com/wp-includes/css/dashicons.min.css?ver=6.8.2' media='all' />
+		<style media="screen"  id="loginpress-style-wp-5-3">
+			.login .privacy-policy-page-link>a.privacy-policy-link{
+				color: inherit;
+				text-decoration: none;
+			}
+			html body.login div.wishlistmember-loginform{
+				padding: 0;
+				margin: auto;
+				transform: none;
+				top: 0;
+				width: 100%;
+			}
+			.login form .input, .login input[type=text],.login form input[type=checkbox]{
+				border-radius: 0;
+			}
+			input[type=checkbox]:checked:before {
+				content: url('data:image/svg+xml;utf8,<svg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27><path%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%23F6366A%27%2F><%2Fsvg>');
+				margin: -0.25rem 0 0 -0.275rem !important;
+			}
+			body .language-switcher{
+				margin-top: 10px;
+				clear: both;
+				z-index: 1;
+				position: absolute;
+				top: 100%;
+				width: 100%;
+			}
+			body #login{
+				position: relative;
+	
+			}
+			.wp-core-ui #login .button-primary{
+				margin-left: 0;
+			}
+			.admin-email__actions-primary .button:first-child {
+				font: 400 15px Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+				color: #fff;
+				height: auto;
+				line-height: 20px !important;
+				padding: 13px;
+				padding-top: 13px;
+				padding-bottom: 13px;
+				width: 100%;
+				text-align: center;
+				background-color: #008ec2;
+				border: 0;
+				margin-bottom: 8px;
+				border-radius: 5px;
+			}
+			.admin-email__actions-primary .button:first-child:hover {
+				background-color: #008ec2;
+			}
+			.login form.admin-email-confirm-form {
+				max-width: 360px;
+				margin: 0 auto;
+			}
+			.login-action-confirm_admin_email #backtoblog a {
+				color: #008ec2 !important;
+			}
+			input[type=checkbox],input[type=checkbox]:checked{
+				border-color: #F6366A !important;
+			}
+			input[type=checkbox]:hover{
+				border-color: #C3C4C7 !important;
+			}
+			.dashicons-visibility:before {
+				color: #F6366A;
+			}
+			.dashicons-hidden:before {
+				color: #000000;
+			}
+			.dashicons-hidden:hover::before {
+				color: #F6366A;
+			}
+		</style>
+			<style media="screen" id="loginpress-style">
+
+		/*************************************************************
+		* Plugin:      LoginPress - Customizing the WordPress Login.*
+		* Description: LoginPress is the best Login Page Customizer *
+		*              in WordPress which allows you to completely  *
+		*              change the layout of login, register and     *
+		*              forgot password forms.                       *
+		* Author:      WPBrigade                                    *
+		* Visit:       https://wordpress.org/plugins/loginpress/    *
+		*************************************************************/
+		body.login {
+			background-image: url(https://estudioami.com/wp-content/plugins/loginpress/img/minimalist.jpg);
+			/*background-color: #ddd5c3;*/
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			background-attachment: fixed;
+			display: table;
+			min-height: 100vh;
+			width: 100%;
+			padding: 0;
+		}
+		.header-wrapper{
+			/* display: table-row; */
+		}
+		#login{
+			margin-top: 2%;
+			background: #fff;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+			-webkit-box-shadow: 0 0 15px rgba(0,0,0,.8);
+			box-shadow: 0 0 15px rgba(0,0,0,.8);
+			max-width: 350px;
+			padding: 26px 26px 6px 26px;
+			width: 100%;
+		}
+		.login form {
+			margin-top: 20px;
+			margin-left: 0;
+			background: #fff;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+		.login form .input, .login input[type="text"]{
+			height: 48px;
+			background: #fff;
+			margin-bottom: 18px;
+			font: normal 15px Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+			color: #7f7f7f;
+			border-color: #bdbdbd;
+			padding-left: 15px;
+			font-weight: normal;
+		}
+		#jetpack_protect_answer{
+			padding-left: 0;
+			text-align : center;
+		}
+		.login input[type="submit"],
+		.wp-core-ui #login .wp-generate-pw,
+		body.wp-core-ui.login .two-factor-email-resend .button,
+		.wp-core-ui #login .button-primary {
+			margin: 7px 0 7px;
+			min-height: 46px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			border-radius: 5px;
+			font: normal 15px Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+			color: #fff;
+			width: 100%;
+			line-height: 1.33333333;
+		}
+		.wp-core-ui.login .button-group.button-large .button,
+		.wp-core-ui.login .button.button-large, .wp-core-ui.login .button-primary{
+			height: 46px;
+			line-height: 0;
+			background: #008ec2;
+		}
+		.wp-core-ui.login  .two-factor-email-resend .button{
+			color: #444;
+		}
+		.login #nav {
+			text-align: center;
+		}
+		#login_error { 
+			display:block;
+		}
+		/*.message { display:none; }*/
+		/*.custom-message {
+			-moz-border-radius:3px 3px 3px 3px;
+			border-style:solid;
+			border-width:1px;
+			margin:0 0 16px 8px;
+			padding:12px;
+		}*/
+
+		#backtoblog{
+			text-align: center;
+		}
+		.header-cell{
+			/* display: table-cell; */
+			height: 100px;
+		}
+		.loginHeaderMenu{
+			text-align: center;
+			position: relative;
+			z-index: 10;
+			list-style: none;
+			background: #333;
+
+		}
+		.loginHeaderMenu>ul>li{
+			display: inline-block;
+			vertical-align: top;
+			position: relative;
+			list-style: none;
+		}
+		.loginHeaderMenu>ul>li>a{
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 16px;
+			padding: 17px 20px;
+			display: inline-block;
+		}
+		.loginHeaderMenu>ul>li:hover>a{
+			background: #4CAF50;
+			color: #fff;
+		}
+		.loginHeaderMenu>ul>li>ul{
+			position: absolute;
+			width: 200px;
+			padding: 0;
+			top: 100%;
+			left: 0;
+			background: #fff;
+			list-style: none;
+			text-align: left;
+			border-radius: 0 0 5px 5px;
+			-webkit-box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+			-moz-box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+			box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+			overflow: hidden;
+			opacity: 0;
+			visibility: hidden;
+		}
+		.loginHeaderMenu>ul>li:hover>ul{
+			opacity: 1;
+			visibility: visible;
+		}
+		.loginHeaderMenu>ul>li>ul>li{
+			font-size: 15px;
+			color: #333;
+		}
+		.loginHeaderMenu>ul>li>ul>li>a{
+			color: #333;
+			padding: 10px;
+			display: block;
+			text-decoration: none;
+		}
+		.loginHeaderMenu>ul>li>ul>li>a:hover {
+			background: rgba(51, 51, 51, 0.35);
+			color: #fff;
+		}
+		.login-wrapper{
+			display: table-row;
+		}
+		.login-cell{
+			display: table-cell;
+			vertical-align: middle;
+		}
+		.clear{
+			display: none;
+		}
+		.footer-wrapper{
+			width: 100%;
+			/* display: table-footer-group; */
+			position: -webkit-sticky;
+			position: sticky;
+			top: 100vh;
+			margin-top: 30px;
+		}
+		.footer-cont{
+			right: 0;
+			bottom: 0;
+			left: 0;
+			text-align: center;
+			/* display: table-cell; */
+			vertical-align: bottom;
+			/* height: 100px; */
+		}
+		.loginFooterMenu{
+			text-align: center;
+			background-color: rgba(0,0,0,.7);
+		}
+		.loginFooterMenu>ul{
+			display: inline-flex;
+		}
+
+		.loginFooterMenu>ul>li{
+			display: inline-block;
+			padding: 18px;
+		}
+		/* style two factor plugin */
+		.login .backup-methods-wrap a, #login form p:not([class]){
+			color: #555d66;
+		}
+		.login .backup-methods-wrap a:hover{
+			color: #00a0d2;
+		}
+		/*End style two factor plugin */
+		.loginFooterMenu>ul>li:focus{
+			outline: none;
+			border: 0;
+		}
+		.loginFooterMenu>ul>li>a:focus{
+			outline: none;
+			border: 0;
+		}
+		.loginFooterMenu>ul>li>a{
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 14px;
+		}
+		.loginHead {
+			width:100%;
+			text-align: center;
+			margin-top: 0;
+			margin-bottom: 20px;
+			padding: 13px 0 0;
+			position: relative;
+			margin: 0;
+		}
+		.loginHead p a {
+		text-decoration: none;
+		}
+		.loginFooter {
+			display: table-footer-group;
+		}
+		.loginFooter p a {
+			display: inline-block;
+			margin: 0 5px;
+		}
+		.loginInner {
+			margin: 0 auto;
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 0;
+			padding: 13px 0;
+			position: relative;
+		}
+		.copyRight{
+			text-align: center;
+			padding: 12px;
+			background-color: #efefef;
+		}
+		.loginpress-show-love{
+			color: #222;
+		}
+		.loginpress-show-love a{
+			color: #263466;
+		}
+		.loginpress-show-love a:hover{
+			color: #4d5d95;
+		}
+		body.login #loginpress_video-background-wrapper {
+			position: fixed !important;
+			top: 0 !important;
+			left: 0 !important;
+			width: 100% !important;
+			height: 100% !important;
+			background-size: cover !important;
+			background-position: center !important;
+			z-index: -999 !important;
+			transform: translate(0);
+			pointer-events: none;
+		}
+		body.login{
+			height: auto;
+			align-items: flex-start !important;
+			justify-content: flex-start !important;
+			padding: 40px 0  0 !important;
+		}
+		#login{
+			border-radius: 0;
+			margin: 40px auto;
+			background: none;
+			box-shadow: none;
+			padding: 0;
+		}
+		body #login{
+			margin-bottom: auto !important;
+			margin-top: auto !important;
+		}
+		.login form{
+			padding: 30px 25px;
+		}
+		.login label{
+			color: #2C3338;
+			font-size: 14px;
+			line-height: 19px;
+			margin: 0 0 10px;
+		}
+		.login input[type="text"], .login input[type="password"]{
+			box-shadow: none;
+			border: 1px solid #C3C4C7;
+		background: #FFF;
+			padding-left: 15px;
+			margin-bottom: 20px;
+			margin-right: 0;
+		}
+		.login .button.wp-hide-pw .dashicons{
+			color: #363636;
+		}
+		.social-sep{
+			font-size: 14px;
+			line-height: 19px;
+			text-transform: uppercase;
+		}
+		.login .button.wp-hide-pw{
+			height: 48px;
+		}
+		.wp-core-ui #login .wp-generate-pw,
+		.login input[type="submit"], .wp-core-ui #login .button-primary{
+			padding: 12px 15px;
+			background: #F6366A;
+			border-color: #F6366A;
+			margin: 20px 0 0;
+		}
+		.wp-core-ui #login .wp-generate-pw{
+			background: #F6366A33;
+			border-color: #F6366A;
+			color: #F6366A;
+		}
+		.login form{
+			background: #FFF;
+			padding: 30px 25px;
+			box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.10);
+		}
+		.social-sep:after,
+		.social-sep:before{
+			border-width: 2px;
+			border-color: #CECECE;
+		}
+		.social-networks.block{
+			padding-bottom: 0;
+		}
+		#loginform .user-pass-fields{
+			margin: 0;
+		}
+		.social-networks a svg{
+			position: static;
+			min-width: 20px;
+			height: 20px;
+		}
+		.login #nav{
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+			color: #2C3338;
+
+			text-align: center;
+			font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+		}
+		.loginpress-seprator{
+			display: none;
+		}
+		.social-networks.block a span{
+			font-weight: 400;
+			float: none;
+		}
+		body .language-switcher{
+			position: static;
+		}
+		body .footer-wrapper {
+			margin-top: 30px;
+			position: static;
+		}
+		#language-switcher {
+			margin-top: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 5px;
+		}
+		#language-switcher label{
+			margin-bottom: 0;
+		}
+		@media screen and (max-width: 767px) {
+			#login{
+				width: 300px;
+			}
+			.login .loginpress-show-love{
+				position: static;
+				text-align: center;
+				float: none;
+				background: rgba(255,255,255, .5);
+				margin-top: 11px;
+				padding-bottom: 0;
+				padding: 3px;
+			}
+		}
+	</style>
+	
+	
+	<script type="07d90e1c98b74a0ca7d218bb-text/javascript">
+		document.addEventListener('DOMContentLoaded', function () {
+			// Find the element with the ID "nav"
+			var navElement = document.getElementById('nav');
+
+			// Check if the element exists
+			if (navElement) {
+				// Replace the "|" with "<span>|</span>"
+				navElement.innerHTML = navElement.innerHTML.replace(/\|/g, '<span class="loginpress-seprator">|</span>');
+			}
+			if(document.querySelector('.footer-cont').innerHTML == ''){
+				document.querySelector('.footer-wrapper').style.display = "none";
+			}
+		});
+	</script>
+	<style type="text/css">
+*{
+	box-sizing: border-box;
+}
+.login .button-primary {
+	float: none;
+}
+.login .privacy-policy-page-link {
+	text-align: center;
+	width: 100%;
+	margin: 0em 0 2em;
+	clear: both;
+	padding-top: 10px;
+}
+html[dir="rtl"] #loginpress_showPasswordWrapper{
+	right: auto;
+	left: 0;
+}
+input[type=checkbox]:checked::before{
+	height: 1.3125rem;
+	width: 1.3125rem;
+}
+.footer-wrapper{
+	overflow: hidden;
+}
+.login form input[type=checkbox]:focus{
+	box-shadow: none;
+	outline: none;
+}
+.login form .forgetmenot{
+	float: none;
+}
+.login form .forgetmenot label{
+	display:inline-block;
+	margin: 0;
+}
+#login::after{
+			}
+
+#login{
+			
+	}
+	#loginform, html body.login .wishlistmember-loginform div#login form#loginform{
+		
+									}
+
+html[dir="rtl"] .login form .input, html[dir="rtl"] .login input[type="text"]{
+	margin-right: 0;
+}
+body.login #loginpress_video-background-wrapper{
+				}
+body.login #loginpress_video-background{
+				
+			object-fit: cover;
+	
+	}
+body.login:after{
+		
+	}
+body.login {
+		
+		background-image: url();
+	
+		background-color: #fcf6f5;
+					position: relative;
+}
+.login h1{
+	}
+.interim-login.login h1 a{
+		width: 257px;
+	}
+
+.login h1 a,
+.login .wp-login-logo a {
+			background-image: url( https://estudioami.com/wp-content/uploads/2023/08/ami-logo-vermelho-0.5x.svg )  !important;
+			width: 257px !important;
+			height: 84px !important;
+			background-size: contain  !important;
+	
+		margin-bottom: 40px !important;
+	
+}
+/**
+ * WordPress 6.7 campatibility
+ * @since 3.3.0 
+ * @version 3.3.0 
+*/
+.login h1 a,
+.login .wp-login-logo a{
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: 100%;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-inline: auto;
+}
+	.login h1 a.bb-login-title:has(.bs-cs-login-title), .login.bb-login #login>h1>a {
+		text-indent: -1000px;
+			}
+.wp-core-ui #login .wp-generate-pw,
+.wp-core-ui #login  .button-primary,
+body.wp-core-ui #login .two-factor-email-resend .button{
+		background: #fabb18;
+			border-color: #fabb18;
+			}
+.wp-core-ui #login .wp-generate-pw{
+		background: #fabb18cc;
+	color: #fabb18;
+	border-color: #fabb18;
+			
+}
+#language-switcher{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#language-switcher input[type="submit"]{
+	padding: 0 10px;
+		background: #fabb18;
+		
+}
+input[type=checkbox],input[type=checkbox]:checked{
+		border-color: #fabb18 !important;
+	}
+.dashicons-visibility,
+.dashicons-hidden:hover {
+		color: #fabb18 !important;
+	}
+.dashicons-visibility:before,
+.dashicons-hidden:hover::before {
+	color: inherit !important;
+}
+input[type=checkbox]:checked:before {
+			content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M14.83 4.89l1.34.94-5.81 8.38H9.02L5.78 9.67l1.34-1.25 2.57 2.4z" fill="%23fabb18"/></svg>');
+	}
+body .language-switcher{
+	left: 0;
+	width: 100%;
+}
+body.wp-core-ui #login .button-primary.button-large:hover, body.wp-core-ui #login .button-primary:hover, body.wp-core-ui #login .two-factor-email-resend .button:hover, .wp-core-ui #login .wp-generate-pw:hover,
+.wp-core-ui #login  .button-primary:hover{
+		background: #dd9d11;
+			border-color: #dd9d11;
+		}
+body.wp-core-ui #login .button-primary.button-large,
+body.wp-core-ui #login .button-primary, body.wp-core-ui #login .two-factor-email-resend .button, .wp-core-ui #login .wp-generate-pw{
+	min-width: fit-content;
+	box-shadow: 0 0 0px rgba( 0,0,0,0.8 );	/* box-shadow: none; */
+	height: auto;
+	line-height: 1.33333;
+	padding: 12px 15px;
+			float: none;
+	width: 100%;
+	min-height: 46px;
+}
+.wp-core-ui #login .wp-generate-pw{
+		font-family: inherit;
+		font-size: 16px !important;;
+			border-radius: 8px;;
+	}
+#loginform,
+#registerform,
+body.login .wishlistmember-loginform div#login form#loginform {
+							}
+#loginform input[type="text"], #loginform input[type="password"]{
+
+box-shadow: 0 0 0px rgba( 0,0,0,0.8 );}
+
+#registerform input[type="text"], #registerform input[type="password"], #registerform input[type="number"], #registerform input[type="email"] {
+		box-shadow: 0 0 0px rgba( 0,0,0,0.8 );}
+
+#lostpasswordform input[type="text"]{
+		box-shadow: 0 0 0px rgba( 0,0,0,0.8 );}
+
+#login {
+		
+}
+
+
+body.login form.shake{
+	transform: none;
+	animation: loginpress_shake_anim .2s cubic-bezier(.19,.49,.38,.79) both;
+}
+@keyframes loginpress_shake_anim {
+	25% {
+		margin-left: -20px;
+	}
+
+	75% {
+		margin-left :20px;
+	}
+
+	100% {
+		margin-left: 0;
+	}
+}
+
+.login form .forgetmenot label {
+	}
+.login label {
+		}
+
+.login form .input, .login input[type="text"] {
+				}
+
+
+/* WordFence 2FA transparent issue fix. */
+#loginform[style="position: relative;"] > .user-pass-wrap,
+#loginform[style="position: relative;"] > .forgetmenot,
+#loginform[style="position: relative;"] > .submit,
+#loginform[style="position: relative;"] > p{
+	visibility: hidden !important;
+}
+
+#wfls-prompt-overlay{
+	background: transparent;
+	padding: 0;
+}
+#wfls-prompt-wrapper input[type="text"]{
+	padding-left: 20px;
+}
+#resetpassform,
+#lostpasswordform {
+						}
+#registerform {
+			}
+
+#wfls-prompt-overlay {
+	}
+
+.login .message, .login .success, .login .custom-message {
+
+		border-left: 4px solid #00a0d2;
+	
+		background-color: #fff;
+	
+	padding: 12px;
+	margin-left: 0;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+.login #nav {
+	font-family: inherit;
+		}
+
+.login #nav a, .login #nav, .privacy-policy-page-link>a{
+	
+			
+}
+
+.login form .forgetmenot label{
+	}
+.social-sep{
+	text-transform: uppercase;
+}
+.social-sep:before,
+.social-sep:after{
+	width: calc(50% - 20px);
+}
+#login form p + p:not(.forgetmenot) input[type="submit"]{
+	margin-top: 0;
+}
+.wp-core-ui #login .wp-generate-pw,
+.login p input[type="submit"],
+.wp-core-ui.login .button-group.button-large .button, .wp-core-ui.login .button.button-large, .wp-core-ui.login .button-primary,
+.wp-core-ui.login .button-group.button-large .button, .wp-core-ui.login .button.button-large, .wp-core-ui.login .button-primary.button-large,
+.wp-core-ui #login .button-primary{
+		font-size: 16px;;
+				border-radius: 8px;;
+	}
+
+.login #nav a:hover{
+	}
+
+.login #backtoblog{
+	}
+
+.login .copyRight{
+	}
+/* .loginpress-show-love, .loginpress-show-love a{
+		color: ;
+	} */
+
+.login .copyRight{
+	}
+.login .privacy-policy-page-link>a.privacy-policy-link:hover{
+	text-decoration: underline;
+}
+.login #backtoblog a{
+			}
+.login .privacy-policy-page-link>a.privacy-policy-link{
+	}
+.login #backtoblog{
+		display: none;
+	
+}
+.login #backtoblog a:hover{
+	}
+
+.loginHead {
+	}
+
+.loginHead p a {
+		}
+
+.loginHead p a:hover {
+	}
+
+.loginFooter p a {
+	margin: 0 5px;
+		}
+
+.loginFooter p a:hover {
+		}
+
+.loginInner {
+	}
+
+	#registerform input, #registerform select, #registerform textarea { 
+border-radius: 8px !important; 
+padding: 12px 16px !important; 
+border-color: #C3C4C7 !important; 
+} 
+
+#registerform input { 
+height: 48px !important; 
+margin-bottom: inherit !important; 
+}
+#registerform input[name=user_login] { 
+margin-bottom: 16px !important; 
+}
+#registerform input::placeholder { 
+color: #DBDBDB !important; 
+}
+
+#registerform input[type=submit] { 
+border: none !important; 
+text-transform: uppercase; 
+font-weight: 500 !important;  
+}
+
+#login div.notice.register { 
+border: none; 
+background: none; 
+box-shadow: none; 
+padding: 0;
+text-align: center;
+}
+#login div.notice.register::before {
+content: 'Cadastre-se'; 
+font-family: 'Jost'; 
+font-weight: 600;
+font-size: 24px;
+text-transform: uppercase;
+color: #3D757A;
+}
+#login div.notice.register p { 
+content-visibility: hidden; 
+}
+
+#registerform h2 { 
+font-family: 'Jost'; 
+font-weight: 600 !important; 
+font-size: 16px;
+text-transform: uppercase;
+color: #3D757A;
+margin-top: 32px;
+}
+
+#registerform label[for=user_login]::after, #registerform label[for=user_email]::after { 
+content: ' *';
+color: red; 
+}
+
+.login .language-switcher { display: none !important; }
+
+.login #loginform, .login #registerform { border-radius: 16px; }
+
+.login p:has(#wp_rar_user_role)  { display: none; }
+
+.login-action-register p:has(label[for='user_login'])::before {
+    content: 'Dados de acesso'; 
+    font-family: 'Jost';
+    font-weight: 600 !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #3D757A;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.login-action-register label[for='user_login'] { visibility: hidden; position: relative; }
+
+.login-action-register label[for='user_login']::before { content: 'Usuário'; visibility: visible; position: absolute; }
+
+.login-action-register label[for='user_login']::after {
+content: ' *'; visibility: visible; position: absolute; left: 50px; color: red; }
+.wp-core-ui .button-primary{
+text-shadow: none;
+}
+
+/*input:-webkit-autofill{
+	transition: all 100000s ease-in-out 0s !important;
+	transition-property: background-color, color !important;
+}*/
+.copyRight{
+	padding: 12px 170px;
+}
+.loginpress-show-love{
+	float: right;
+	font-style: italic;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	position: absolute;
+	bottom: 3px;
+	right: 0;
+	z-index: 10;
+}
+.loginpress-show-love a{
+	text-decoration: none;
+}
+.love-position{
+	left: 0;
+	padding-left: 20px;
+}
+.header-cell{
+	/* display: table-cell; */
+	height: 100px;
+}
+.loginHeaderMenu{
+	text-align: center;
+	position: relative;
+	z-index: 10;
+	list-style: none;
+	background: #333;
+
+}
+.loginHeaderMenu>ul>li{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	list-style: none;
+}
+.loginHeaderMenu>ul>li>a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 17px 20px;
+	display: inline-block;
+}
+.loginHeaderMenu>ul>li:hover>a{
+	background: #4CAF50;
+	color: #fff;
+}
+.loginHeaderMenu>ul>li>ul{
+	position: absolute;
+	width: 200px;
+	padding: 0;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	list-style: none;
+	text-align: left;
+	border-radius: 0 0 5px 5px;
+	-webkit-box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+	-moz-box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+	box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+	overflow: hidden;
+	opacity: 0;
+	visibility: hidden;
+}
+.loginHeaderMenu>ul>li:hover>ul{
+	opacity: 1;
+	visibility: visible;
+}
+.loginHeaderMenu>ul>li>ul>li{
+	font-size: 15px;
+	color: #333;
+}
+.loginHeaderMenu>ul>li>ul>li>a{
+	color: #333;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+}
+.loginHeaderMenu>ul>li>ul>li>a:hover {
+	background: rgba(51, 51, 51, 0.35);
+	color: #fff;
+}
+.loginHeaderMenu>ul {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+.loginFooterMenu{
+	text-align: center;
+	background-color: rgba(0,0,0,.7);
+}
+.loginFooterMenu>ul{
+	display: inline-flex;
+}
+
+.loginFooterMenu>ul>li{
+	display: inline-block;
+	padding: 18px;
+}
+.loginFooterMenu>ul>li:focus{
+	outline: none;
+	border: 0;
+}
+.loginFooterMenu>ul>li>a:focus{
+	outline: none;
+	border: 0;
+}
+.loginFooterMenu>ul>li>a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+}
+.loginFooterMenu>ul {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+.loginpress-caps-lock{
+	background: rgba(51, 56, 61, 0.9);
+	color: #fff;
+	display: none;
+	font-size: 14px;
+	width: 120px;
+	padding: 5px 10px;
+	line-height: 20px;
+	position: absolute;
+	left: calc(100% + 10px);
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 5px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	text-align: center;
+	-webkit-box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.20);
+	box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.20);
+	margin-left: 5px;
+	font-weight: normal;
+	margin: 0;
+	display: none;
+}
+.loginpress-caps-lock:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 5px 5px 0;
+	border-color: transparent rgba(51, 56, 61, 0.9) transparent transparent;
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-left: 0;
+	margin-top: -5px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	z-index: 1;
+}
+.login form{
+	overflow: visible;
+		border: none;
+}
+#loginform .user-pass-fields input{
+	margin-bottom: 0;
+}
+#loginform .user-pass-fields {
+	margin-bottom: 18px;
+	position: relative;
+}
+#login form p.submit{
+	position: relative;
+	clear: both;
+}
+input[type=checkbox]:checked::before{
+	margin: -.35rem 0 0 -.375rem;
+}
+/* LoginPress input field since 1.1.20 */
+/* .loginpress-input-wrap{
+	position: relative;
+}
+.loginpress-input-field {
+	transition: 0.4s;
+}
+.loginpress-input-field ~ .focus-border:before, .loginpress-input-field ~ .focus-border:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	background-color: #3399FF;
+	transition: 0.4s;
+	z-index: 999;
+}
+.loginpress-input-field ~ .focus-border:after{
+	top: auto; bottom: 0;
+}
+.loginpress-input-field ~ .focus-border i:before, .loginpress-input-field ~ .focus-border i:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 2px;
+	height: 0;
+	background-color: #3399FF;
+	transition: 0.6s;
+}
+.loginpress-input-field ~ .focus-border i:after{
+	left: auto; right: 0;
+}
+.loginpress-input-field:focus ~ .focus-border:before, .loginpress-input-field:focus ~ .focus-border:after{
+	left: 0;
+	width: 100%;
+	transition: 0.4s;
+}
+.loginpress-input-field:focus ~ .focus-border i:before, .loginpress-input-field:focus ~ .focus-border i:after{
+	top: 0;
+	height: 100%;
+	transition: 0.6s;
+} */
+/* ! LoginPress input field since 1.1.20 */
+@media screen and (max-width: 1239px) and (min-width: 768px){
+	body.login #loginpress_video-background-wrapper{
+			}
+}
+
+@media screen and (max-width: 767px) {
+	body.login {
+	    			}
+		.login h1 a {
+				max-width: 100%;
+				background-size: contain !important;
+		}
+	.copyRight{
+		padding: 12px;
+	}
+	.loginpress-caps-lock{
+		left: auto;
+		right: 0;
+		top: 149%;
+	}
+	.loginpress-caps-lock:before{
+		content: '';
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 5px 5px 5px;
+		border-color: transparent transparent rgba(51, 56, 61, 0.9) transparent;
+		position: absolute;
+		top: 0px;
+		left: 5px;
+		right: auto;
+	}
+	.loginpress-show-love{
+		display: none !important;
+	}
+body.login #loginpress_video-background-wrapper{
+				}
+}
+@media screen and (max-height: 700px) {
+	.loginpress-show-love{
+		display: none !important;
+	}
+}
+/* The only rule that matters */
+#loginpress_video-background {
+/*  making the video fullscreen  */
+	position: fixed !important ;
+	right: 0 !important ;
+	bottom: 0 !important ;
+	width: 100% !important ;
+	height: 100% !important ;
+	z-index: -100 !important ;
+}
+body.login #login.login_transparent,body.login  #login.login_transparent #loginform{
+	background: none !important;
+}
+body.login{
+	height: auto !important;
+	display: flex;
+	flex-direction: column;
+}
+body #login{
+	margin-bottom: 0;
+}
+body.login label[for="authcode"]:after{
+	display: none;
+}
+body.login label[for="authcode"]+input{
+padding-left: 15px;
+}
+/* Default Login Popup styling */
+.interim-login.login form {
+	margin: 30px !important;
+}
+.interim-login #login_error, .interim-login.login .message{
+	margin: 0 20px 16px !important;
+}
+
+.interim-login.login {
+	min-height: 520px;
+	height: 100vh;
+}
+
+.interim-login #login {
+	width: 100%;
+	max-width: 380px;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 100%;
+	border-radius: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px 0;
+}
+
+/* Default Login Popup styling */
+
+.interim-login.login form {
+	margin: 30px !important;
+}
+
+.interim-login #login_error, .interim-login.login .message{
+	margin: 0 20px 16px !important;
+}
+
+.interim-login.login {
+	min-height: 520px;
+	height: 100vh;
+}
+
+.interim-login #login {
+	width: 100%;
+	max-width: 380px;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 100%;
+	border-radius: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px 0;
+}
+
+.interim-login #login .submit{
+	margin-top: 10px;
+}
+body.login form .forgetmenot{
+	float: none !important;
+}
+#login form p + p:not(.forgetmenot){
+	padding-top: 0 !important;
+	margin-top: 20px !important;
+}
+	[for="language-switcher-locales"]:after{
+		display: none;
+	}
+	.language-switcher{
+		clear: both;
+		padding-top: 1px;
+	}
+	.login #language-switcher input[type="submit"]{
+		margin: 0;
+		color: #2271b1;
+		border-color: #2271b1;
+		background: #f6f7f7;
+		vertical-align: top;
+		height: inherit;
+		width: inherit;
+		font-size: inherit;
+		width: fit-content;
+		max-width: fit-content;
+		min-height: 30px;
+	}
+	@media screen and (max-width: 782px){
+		input[type=checkbox], input[type=radio]{
+			height: 16px;
+			width: 16px;
+		}
+	}
+</style>
+
+
+	<meta name='referrer' content='strict-origin-when-cross-origin' />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="https://estudioami.com/wp-content/uploads/2023/08/ami-logo-vermelho-0.1x.svg" type="image/x-icon" />
+	</head>
+	<body class="login no-js login-action-register wp-core-ui  locale-pt-br">
+	<script type="07d90e1c98b74a0ca7d218bb-text/javascript">
+/* <![CDATA[ */
+document.body.className = document.body.className.replace('no-js','js');
+/* ]]> */
+</script>
+
+				<h1 class="screen-reader-text">Formulário de registro</h1>
+			<div id="login">
+		<h1 role="presentation" class="wp-login-logo"><a href="https://estudioami.com">Estúdio AMI</a></h1>
+	<div class="notice notice-info message register"><p>Cadastre-se nesse site</p></div>
+		<form name="registerform" id="registerform" action="https://estudioami.com/wp-login.php?action=register" method="post" novalidate="novalidate">
+			<p>
+				<label for="user_login">Nome de usuário</label>
+				<input type="text" name="user_login" id="user_login" class="input" value="" size="20" autocapitalize="off" autocomplete="username" required="required" />
+			</p>
+			<p>
+				<label for="user_email">E-mail</label>
+				<input type="email" name="user_email" id="user_email" class="input" value="" size="25" autocomplete="email" required="required" />
+			</p>
+				<div id="acf-form-data" class="acf-hidden">
+		<input type="hidden" id="_acf_screen" name="_acf_screen" value="user"/><input type="hidden" id="_acf_post_id" name="_acf_post_id" value="user_0"/><input type="hidden" id="_acf_validation" name="_acf_validation" value="0"/><input type="hidden" id="_acf_nonce" name="_acf_nonce" value="e157413800"/><input type="hidden" id="_acf_changed" name="_acf_changed" value="0"/>	</div>
+	<h2>Informações pessoais</h2><div class="acf-user-register-fields acf-fields -clear"><div class="acf-field acf-field-text acf-field-6633f9f7c15f6 is-required" data-name="nome" data-type="text" data-key="field_6633f9f7c15f6" data-required="1">
+<div class="acf-label">
+<label for="acf-field_6633f9f7c15f6">Nome <span class="acf-required">*</span></label></div>
+<div class="acf-input">
+<div class="acf-input-wrap"><input type="text" id="acf-field_6633f9f7c15f6" name="acf[field_6633f9f7c15f6]" required="required"/></div></div>
+</div>
+<div class="acf-field acf-field-text acf-field-6633fa12c15f7 is-required" data-name="sobrenome" data-type="text" data-key="field_6633fa12c15f7" data-required="1">
+<div class="acf-label">
+<label for="acf-field_6633fa12c15f7">Sobrenome <span class="acf-required">*</span></label></div>
+<div class="acf-input">
+<div class="acf-input-wrap"><input type="text" id="acf-field_6633fa12c15f7" name="acf[field_6633fa12c15f7]" required="required"/></div></div>
+</div>
+<div class="acf-field acf-field-number acf-field-6633f395c836d is-required" data-name="billing_cpf" data-type="number" data-key="field_6633f395c836d" data-required="1">
+<div class="acf-label">
+<label for="acf-field_6633f395c836d">CPF <span class="acf-required">*</span></label></div>
+<div class="acf-input">
+<div class="acf-input-wrap"><input type="number" id="acf-field_6633f395c836d" name="acf[field_6633f395c836d]" step="any" placeholder="Somente números" required="required"/></div></div>
+</div>
+<div class="acf-field acf-field-number acf-field-6633f94b7e53f is-required" data-name="celular" data-type="number" data-key="field_6633f94b7e53f" data-required="1">
+<div class="acf-label">
+<label for="acf-field_6633f94b7e53f">Celular <span class="acf-required">*</span></label></div>
+<div class="acf-input">
+<div class="acf-input-wrap"><input type="number" id="acf-field_6633f94b7e53f" name="acf[field_6633f94b7e53f]" step="any" placeholder="Somente números" required="required"/></div></div>
+</div>
+<div class="acf-field acf-field-textarea acf-field-6633f9017e53e" data-name="endereco" data-type="textarea" data-key="field_6633f9017e53e">
+<div class="acf-label">
+<label for="acf-field_6633f9017e53e">Endereço</label></div>
+<div class="acf-input">
+<textarea id="acf-field_6633f9017e53e" name="acf[field_6633f9017e53e]" rows="8"></textarea></div>
+</div>
+</div><h2>Informações profissionais</h2><div class="acf-user-register-fields acf-fields -clear"><div class="acf-field acf-field-select acf-field-6633dec849e1f is-required" data-name="wp_rar_user_role" data-type="select" data-key="field_6633dec849e1f" data-required="1">
+<div class="acf-label">
+<label for="acf-field_6633dec849e1f">Arquiteto(a), Decorador(a) ou Designer? <span class="acf-required">*</span></label></div>
+<div class="acf-input">
+<select id="acf-field_6633dec849e1f" class="" name="acf[field_6633dec849e1f]" data-ui="0" data-ajax="0" data-multiple="0" data-placeholder="Selecionar" data-allow_null="0"><option value="arquiteto">Sim, sou Arquiteto(a)</option><option value="decorador">Sim, sou Decorador(a)</option><option value="designer">Sim, sou Designer</option><option value="subscriber" selected="selected" data-i="0">Não, tenho outra profissão</option></select></div>
+</div>
+<div class="acf-field acf-field-text acf-field-6633ddbd49e1c" data-name="cau" data-type="text" data-key="field_6633ddbd49e1c" data-conditions="[[{&quot;field&quot;:&quot;field_6633dec849e1f&quot;,&quot;operator&quot;:&quot;==&quot;,&quot;value&quot;:&quot;arquiteto&quot;}]]">
+<div class="acf-label">
+<label for="acf-field_6633ddbd49e1c">⁠Número CAU</label></div>
+<div class="acf-input">
+<div class="acf-input-wrap"><input type="text" id="acf-field_6633ddbd49e1c" name="acf[field_6633ddbd49e1c]"/></div></div>
+</div>
+<div class="acf-field acf-field-number acf-field-6634f651d2989" data-name="abd" data-type="number" data-key="field_6634f651d2989" data-conditions="[[{&quot;field&quot;:&quot;field_6633dec849e1f&quot;,&quot;operator&quot;:&quot;==&quot;,&quot;value&quot;:&quot;Designer&quot;}]]">
+<div class="acf-label">
+<label for="acf-field_6634f651d2989">Número ABD</label></div>
+<div class="acf-input">
+<div class="acf-input-wrap"><input type="number" id="acf-field_6634f651d2989" name="acf[field_6634f651d2989]" step="any"/></div></div>
+</div>
+<div class="acf-field acf-field-text acf-field-6633f340f5c18" data-name="profissao" data-type="text" data-key="field_6633f340f5c18" data-conditions="[[{&quot;field&quot;:&quot;field_6633dec849e1f&quot;,&quot;operator&quot;:&quot;==&quot;,&quot;value&quot;:&quot;subscriber&quot;}]]">
+<div class="acf-label">
+<label for="acf-field_6633f340f5c18">Profissão</label></div>
+<div class="acf-input">
+<div class="acf-input-wrap"><input type="text" id="acf-field_6633f340f5c18" name="acf[field_6633f340f5c18]"/></div></div>
+</div>
+<div class="acf-field acf-field-text acf-field-6633f57ade11e" data-name="billing_company" data-type="text" data-key="field_6633f57ade11e">
+<div class="acf-label">
+<label for="acf-field_6633f57ade11e">Empresa</label></div>
+<div class="acf-input">
+<div class="acf-input-wrap"><input type="text" id="acf-field_6633f57ade11e" name="acf[field_6633f57ade11e]"/></div></div>
+</div>
+</div>    <style type="text/css">
+    <!--
+    select.input {
+      background: #FFF;
+      border: 1px solid #E5E5E5;
+      font-size: 16px;
+      margin-bottom: 16px;
+      margin-right: 6px;
+      margin-top: 2px;
+      padding: 3px;
+      width: 100%;
+    }
+    -->
+    </style>
+    <p>
+    <label for="wp_rar_user_role">Role<br />
+      <select id="wp_rar_user_role" name="wp_rar_user_role" class="input select">
+          <option value="arquiteto">
+        Arquiteto      </option>
+            <option value="designer">
+        Designer      </option>
+            <option value="decorador">
+        Decorador      </option>
+            <option value="subscriber" selected="selected">
+        Subscriber      </option>
+            </select>
+    </label>
+    </p>
+    			<p id="reg_passmail">
+				Uma confirmação de registro será enviada para você por e-mail.			</p>
+			<input type="hidden" name="redirect_to" value="" />
+			<p class="submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Cadastre-se" />
+			</p>
+		</form>
+
+		<p id="nav">
+			<a class="wp-login-log-in" href="https://estudioami.com/wp-login.php">Acessar</a>
+			 | <a class="wp-login-lost-password" href="https://estudioami.com/minha-conta/lost-password/">Perdeu a senha?</a>		</p>
+				<p id="backtoblog">
+			<a href="https://estudioami.com/">&larr; Ir para Estúdio AMI</a>		</p>
+		<div class="privacy-policy-page-link"><a class="privacy-policy-link" href="https://estudioami.com/politica-de-privacidade/" rel="privacy-policy">Política de privacidade</a></div>	</div>
+				<div class="language-switcher">
+				<form id="language-switcher" method="get">
+
+					<label for="language-switcher-locales">
+						<span class="dashicons dashicons-translation" aria-hidden="true"></span>
+						<span class="screen-reader-text">
+							Idioma						</span>
+					</label>
+
+					<select name="wp_lang" id="language-switcher-locales"><option value="en_US" lang="en" data-installed="1">English (United States)</option>
+<option value="pt_BR" lang="pt" selected='selected' data-installed="1">Português do Brasil</option></select>
+					
+					
+											<input type="hidden" name="action" value="register" />
+					
+						<input type="submit" class="button" value="Alterar">
+
+					</form>
+				</div>
+			
+	<script type="07d90e1c98b74a0ca7d218bb-text/javascript">
+/* <![CDATA[ */
+
+		try{document.getElementById('user_login').focus();}catch(e){}
+		if(typeof wpOnload==='function')wpOnload();
+		
+/* ]]> */
+</script>
+<div class="footer-wrapper"><div class="footer-cont"></div></div>	<script type="07d90e1c98b74a0ca7d218bb-text/javascript">
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript">
+    jQuery(function($){
+	//User roles at registration
+	$("select").change(function(){
+		var role = $(this).val();
+		$("#wp_rar_user_role").val(role);
+        }); 
+</script>	</script>
+
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript">
+
+	document.addEventListener( 'DOMContentLoaded', function() {
+
+		if (navigator.userAgent.indexOf("Firefox") != -1) {
+			var body = document.body;
+			body.classList.add("firefox");
+		}
+		// your code goes here
+		if ( document.getElementById('user_pass') ) {
+
+			var loginpress_user_pass = document.getElementById('user_pass');
+			var loginpress_wrapper   = document.createElement('div');
+			loginpress_wrapper.classList.add('user-pass-fields');
+			// insert wrapper before el in the DOM tree
+			user_pass.parentNode.insertBefore(loginpress_wrapper, loginpress_user_pass);
+
+			// move el into wrapper
+			loginpress_wrapper.appendChild(loginpress_user_pass);
+			var loginpress_user_ps  = document.getElementsByClassName('user-pass-fields');
+			var loginpress_node     = document.createElement("div");
+			loginpress_node.classList.add('loginpress-caps-lock');
+			var loginpress_textnode = document.createTextNode('Caps Lock Ligado');
+			loginpress_node.appendChild(loginpress_textnode);
+			loginpress_user_ps[0].appendChild(loginpress_node);
+		}
+
+	}, false );
+	window.onload = function(e) {
+
+		var capsLock      = 'off';
+		var passwordField = document.getElementById("user_pass");
+		if ( passwordField ) {
+			
+			passwordField.onkeydown = function(e) {
+				var el   = this;
+				var caps = event.getModifierState && event.getModifierState( 'CapsLock' );
+				if ( caps ) {
+					capsLock = 'on';
+					el.nextElementSibling.style.display = "block";
+				} else {
+					capsLock = 'off';
+					el.nextElementSibling.style.display = "none";
+				}
+			};
+
+			passwordField.onblur = function(e) {
+				var el = this;
+				el.nextElementSibling.style.display = "none";
+			};
+
+			passwordField.onfocus = function(e) {
+				var el = this;
+				if ( capsLock == 'on' ) {
+					el.nextElementSibling.style.display = "block";
+				} else {
+					el.nextElementSibling.style.display = "none";
+				}
+			};
+		}
+
+		// if ( document.getElementById("loginform") ) {
+		//   document.getElementById("loginform").addEventListener( "submit", _LoginPressFormSubmitLoader );
+		// }
+		// if ( document.getElementById("registerform") ) {
+		//   document.getElementById("registerform").addEventListener( "submit", _LoginPressFormSubmitLoader );
+		// }
+		// if ( document.getElementById("lostpasswordform") ) {
+		//   document.getElementById("lostpasswordform").addEventListener( "submit", _LoginPressFormSubmitLoader );
+		// }
+
+		function _LoginPressFormSubmitLoader() {
+
+			var subButton = document.getElementsByClassName("submit");
+			var myButton  = document.getElementById("wp-submit");
+			var image     = document.createElement("img");
+
+			myButton.setAttribute('disabled', 'disabled');
+			image.setAttribute( "src", "https://estudioami.com/wp-admin/images/loading.gif" );
+			image.setAttribute( "width", "20" );
+			image.setAttribute( "height", "20" );
+			image.setAttribute( "alt", "Login Loader" );
+			image.setAttribute( "style", "display: block;margin: 0 auto;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);" );
+			subButton[0].appendChild(image);
+		}
+		if(jQuery('.login-container').length==0){
+			jQuery('.language-switcher').appendTo(jQuery('#login'));
+		}else{
+			jQuery('.language-switcher').appendTo(jQuery('.login-container'));
+		}
+	};
+
+			var _LoginPressRMChecked = document.getElementById("rememberme");
+		if ( null != _LoginPressRMChecked ) {
+			_LoginPressRMChecked.checked = true;
+		}
+	</script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" id="mercadopago_melidata-js-extra">
+/* <![CDATA[ */
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"8.4.1","platform_version":"10.0.4"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"8.4.1","platform_version":"10.0.4"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"8.4.1","platform_version":"10.0.4"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"8.4.1","platform_version":"10.0.4"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"8.4.1","platform_version":"10.0.4"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"8.4.1","platform_version":"10.0.4"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"8.4.1","platform_version":"10.0.4"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"8.4.1","platform_version":"10.0.4"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"8.4.1","platform_version":"10.0.4"};
+var mercadopago_melidata_params = {"type":"buyer","site_id":"MLB","location":"\/checkout","payment_method":"","plugin_version":"8.4.1","platform_version":"10.0.4"};
+/* ]]> */
+</script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript" src="https://estudioami.com/wp-content/plugins/woocommerce-mercadopago/assets/js/melidata/melidata-client.min.js?ver=8.4.1" id="mercadopago_melidata-js"></script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript">
+acf.data = {"select2L10n":{"matches_1":"Um resultado dispon\u00edvel, aperte Enter para selecion\u00e1-lo.","matches_n":"%d resultados dispon\u00edveis, use as setas para cima ou baixo para navegar.","matches_0":"N\u00e3o foi poss\u00edvel encontrar correspond\u00eancias","input_too_short_1":"Digite 1 ou mais caracteres","input_too_short_n":"Digite %d ou mais caracteres","input_too_long_1":"Exclua 1 caractere","input_too_long_n":"Exclua %d caracteres","selection_too_long_1":"Voc\u00ea s\u00f3 pode selecionar 1 item","selection_too_long_n":"Voc\u00ea s\u00f3 pode selecionar %d itens","load_more":"Carregando mais resultados&hellip;","searching":"Pesquisando&hellip;","load_fail":"Falha ao carregar"},"google_map_api":"https:\/\/maps.googleapis.com\/maps\/api\/js?libraries=places&ver=3&callback=Function.prototype&language=pt_BR","datePickerL10n":{"closeText":"Conclu\u00eddo","currentText":"Hoje","nextText":"Seguinte","prevText":"Anterior","weekHeader":"Sem","monthNames":["janeiro","fevereiro","mar\u00e7o","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],"monthNamesShort":["jan","fev","mar","abr","maio","jun","jul","ago","set","out","nov","dez"],"dayNames":["domingo","segunda-feira","ter\u00e7a-feira","quarta-feira","quinta-feira","sexta-feira","s\u00e1bado"],"dayNamesMin":["D","S","T","Q","Q","S","S"],"dayNamesShort":["dom","seg","ter","qua","qui","sex","s\u00e1b"]},"dateTimePickerL10n":{"timeOnlyTitle":"Selecione o hor\u00e1rio","timeText":"Hor\u00e1rio","hourText":"Hora","minuteText":"Minuto","secondText":"Segundo","millisecText":"Milissegundo","microsecText":"Microssegundo","timezoneText":"Fuso hor\u00e1rio","currentText":"Agora","closeText":"Conclu\u00eddo","selectText":"Selecionar","amNames":["AM","A"],"pmNames":["PM","P"]},"colorPickerL10n":{"hex_string":"Sequ\u00eancia hex","rgba_string":"Sequ\u00eancia RGBA"},"iconPickerA11yStrings":{"noResultsForSearchTerm":"No results found for that search term","newResultsFoundForSearchTerm":"The available icons matching your search query have been updated in the icon picker below."},"iconPickeri10n":{"dashicons-admin-appearance":"Appearance Icon","dashicons-admin-collapse":"Collapse Icon","dashicons-admin-comments":"Comments Icon","dashicons-admin-customizer":"Customizer Icon","dashicons-admin-generic":"Generic Icon","dashicons-admin-home":"Home Icon","dashicons-admin-links":"Links Icon","dashicons-admin-media":"Media Icon","dashicons-admin-multisite":"Multisite Icon","dashicons-admin-network":"Network Icon","dashicons-admin-page":"Page Icon","dashicons-admin-plugins":"Plugins Icon","dashicons-admin-post":"Post Icon","dashicons-admin-settings":"Settings Icon","dashicons-admin-site":"Site Icon","dashicons-admin-site-alt":"Site (alt) Icon","dashicons-admin-site-alt2":"Site (alt2) Icon","dashicons-admin-site-alt3":"Site (alt3) Icon","dashicons-admin-tools":"Tools Icon","dashicons-admin-users":"Users Icon","dashicons-airplane":"Airplane Icon","dashicons-album":"Album Icon","dashicons-align-center":"Align Center Icon","dashicons-align-full-width":"Align Full Width Icon","dashicons-align-left":"Align Left Icon","dashicons-align-none":"Align None Icon","dashicons-align-pull-left":"Align Pull Left Icon","dashicons-align-pull-right":"Align Pull Right Icon","dashicons-align-right":"Align Right Icon","dashicons-align-wide":"Align Wide Icon","dashicons-amazon":"Amazon Icon","dashicons-analytics":"Analytics Icon","dashicons-archive":"Archive Icon","dashicons-arrow-down":"Arrow Down Icon","dashicons-arrow-down-alt":"Arrow Down (alt) Icon","dashicons-arrow-down-alt2":"Arrow Down (alt2) Icon","dashicons-arrow-left":"Arrow Left Icon","dashicons-arrow-left-alt":"Arrow Left (alt) Icon","dashicons-arrow-left-alt2":"Arrow Left (alt2) Icon","dashicons-arrow-right":"Arrow Right Icon","dashicons-arrow-right-alt":"Arrow Right (alt) Icon","dashicons-arrow-right-alt2":"Arrow Right (alt2) Icon","dashicons-arrow-up":"Arrow Up Icon","dashicons-arrow-up-alt":"Arrow Up (alt) Icon","dashicons-arrow-up-alt2":"Arrow Up (alt2) Icon","dashicons-art":"Art Icon","dashicons-awards":"Awards Icon","dashicons-backup":"Backup Icon","dashicons-bank":"Bank Icon","dashicons-beer":"Beer Icon","dashicons-bell":"Bell Icon","dashicons-block-default":"Block Default Icon","dashicons-book":"Book Icon","dashicons-book-alt":"Book (alt) Icon","dashicons-buddicons-activity":"Activity Icon","dashicons-buddicons-bbpress-logo":"bbPress Icon","dashicons-buddicons-buddypress-logo":"BuddyPress Icon","dashicons-buddicons-community":"Community Icon","dashicons-buddicons-forums":"\u00cdcone de f\u00f3rum","dashicons-buddicons-friends":"Friends Icon","dashicons-buddicons-groups":"Groups Icon","dashicons-buddicons-pm":"PM Icon","dashicons-buddicons-replies":"Replies Icon","dashicons-buddicons-topics":"Topics Icon","dashicons-buddicons-tracking":"Tracking Icon","dashicons-building":"Building Icon","dashicons-businessman":"\u00cdcone de homem de neg\u00f3cios","dashicons-businessperson":"Businessperson Icon","dashicons-businesswoman":"Businesswoman Icon","dashicons-button":"Button Icon","dashicons-calculator":"Calculator Icon","dashicons-calendar":"Calendar Icon","dashicons-calendar-alt":"Calendar (alt) Icon","dashicons-camera":"Camera Icon","dashicons-camera-alt":"Camera (alt) Icon","dashicons-car":"Car Icon","dashicons-carrot":"Carrot Icon","dashicons-cart":"Cart Icon","dashicons-category":"Category Icon","dashicons-chart-area":"Chart Area Icon","dashicons-chart-bar":"Chart Bar Icon","dashicons-chart-line":"Chart Line Icon","dashicons-chart-pie":"Chart Pie Icon","dashicons-clipboard":"Clipboard Icon","dashicons-clock":"Clock Icon","dashicons-cloud":"Cloud Icon","dashicons-cloud-saved":"Cloud Saved Icon","dashicons-cloud-upload":"Cloud Upload Icon","dashicons-code-standards":"Code Standards Icon","dashicons-coffee":"Coffee Icon","dashicons-color-picker":"Color Picker Icon","dashicons-columns":"Columns Icon","dashicons-controls-back":"Back Icon","dashicons-controls-forward":"Forward Icon","dashicons-controls-pause":"Pause Icon","dashicons-controls-play":"Play Icon","dashicons-controls-repeat":"Repeat Icon","dashicons-controls-skipback":"Skip Back Icon","dashicons-controls-skipforward":"Skip Forward Icon","dashicons-controls-volumeoff":"Volume Off Icon","dashicons-controls-volumeon":"Volume On Icon","dashicons-cover-image":"Cover Image Icon","dashicons-dashboard":"Dashboard Icon","dashicons-database":"Database Icon","dashicons-database-add":"Database Add Icon","dashicons-database-export":"Database Export Icon","dashicons-database-import":"Database Import Icon","dashicons-database-remove":"Database Remove Icon","dashicons-database-view":"Database View Icon","dashicons-desktop":"Desktop Icon","dashicons-dismiss":"Dismiss Icon","dashicons-download":"Download Icon","dashicons-drumstick":"Drumstick Icon","dashicons-edit":"Edit Icon","dashicons-edit-large":"Edit Large Icon","dashicons-edit-page":"Edit Page Icon","dashicons-editor-aligncenter":"Align Center Icon","dashicons-editor-alignleft":"Align Left Icon","dashicons-editor-alignright":"Align Right Icon","dashicons-editor-bold":"Bold Icon","dashicons-editor-break":"Break Icon","dashicons-editor-code":"Code Icon","dashicons-editor-contract":"Contract Icon","dashicons-editor-customchar":"Custom Character Icon","dashicons-editor-expand":"Expand Icon","dashicons-editor-help":"Help Icon","dashicons-editor-indent":"Indent Icon","dashicons-editor-insertmore":"Insert More Icon","dashicons-editor-italic":"Italic Icon","dashicons-editor-justify":"Justify Icon","dashicons-editor-kitchensink":"Kitchen Sink Icon","dashicons-editor-ltr":"LTR Icon","dashicons-editor-ol":"Ordered List Icon","dashicons-editor-ol-rtl":"Ordered List RTL Icon","dashicons-editor-outdent":"Outdent Icon","dashicons-editor-paragraph":"Paragraph Icon","dashicons-editor-paste-text":"Paste Text Icon","dashicons-editor-paste-word":"Paste Word Icon","dashicons-editor-quote":"Quote Icon","dashicons-editor-removeformatting":"Remove Formatting Icon","dashicons-editor-rtl":"RTL Icon","dashicons-editor-spellcheck":"Spellcheck Icon","dashicons-editor-strikethrough":"Strikethrough Icon","dashicons-editor-table":"Table Icon","dashicons-editor-textcolor":"Text Color Icon","dashicons-editor-ul":"Unordered List Icon","dashicons-editor-underline":"Underline Icon","dashicons-editor-unlink":"Unlink Icon","dashicons-editor-video":"Video Icon","dashicons-ellipsis":"Ellipsis Icon","dashicons-email":"Email Icon","dashicons-email-alt":"Email (alt) Icon","dashicons-email-alt2":"Email (alt2) Icon","dashicons-embed-audio":"Embed Audio Icon","dashicons-embed-generic":"Embed Generic Icon","dashicons-embed-photo":"Embed Photo Icon","dashicons-embed-post":"Embed Post Icon","dashicons-embed-video":"Embed Video Icon","dashicons-excerpt-view":"Excerpt View Icon","dashicons-exit":"Exit Icon","dashicons-external":"External Icon","dashicons-facebook":"Facebook Icon","dashicons-facebook-alt":"Facebook (alt) Icon","dashicons-feedback":"Feedback Icon","dashicons-filter":"Filter Icon","dashicons-flag":"Flag Icon","dashicons-food":"Food Icon","dashicons-format-aside":"Aside Icon","dashicons-format-audio":"Audio Icon","dashicons-format-chat":"Chat Icon","dashicons-format-gallery":"Gallery Icon","dashicons-format-image":"Image Icon","dashicons-format-quote":"Quote Icon","dashicons-format-status":"Status Icon","dashicons-format-video":"Video Icon","dashicons-forms":"Forms Icon","dashicons-fullscreen-alt":"Fullscreen (alt) Icon","dashicons-fullscreen-exit-alt":"Fullscreen Exit (alt) Icon","dashicons-games":"Games Icon","dashicons-google":"Google Icon","dashicons-grid-view":"Grid View Icon","dashicons-groups":"Groups Icon","dashicons-hammer":"Hammer Icon","dashicons-heading":"Heading Icon","dashicons-heart":"Heart Icon","dashicons-hidden":"Hidden Icon","dashicons-hourglass":"Hourglass Icon","dashicons-html":"HTML Icon","dashicons-id":"ID Icon","dashicons-id-alt":"ID (alt) Icon","dashicons-image-crop":"Crop Icon","dashicons-image-filter":"Filter Icon","dashicons-image-flip-horizontal":"Flip Horizontal Icon","dashicons-image-flip-vertical":"Flip Vertical Icon","dashicons-image-rotate":"Rotate Icon","dashicons-image-rotate-left":"Rotate Left Icon","dashicons-image-rotate-right":"Rotate Right Icon","dashicons-images-alt":"Images (alt) Icon","dashicons-images-alt2":"Images (alt2) Icon","dashicons-index-card":"Index Card Icon","dashicons-info":"Info Icon","dashicons-info-outline":"Info Outline Icon","dashicons-insert":"Insert Icon","dashicons-insert-after":"Insert After Icon","dashicons-insert-before":"Insert Before Icon","dashicons-instagram":"Instagram Icon","dashicons-laptop":"Laptop Icon","dashicons-layout":"Layout Icon","dashicons-leftright":"Left Right Icon","dashicons-lightbulb":"Lightbulb Icon","dashicons-linkedin":"LinkedIn Icon","dashicons-list-view":"List View Icon","dashicons-location":"Location Icon","dashicons-location-alt":"Location (alt) Icon","dashicons-lock":"Lock Icon","dashicons-marker":"Marker Icon","dashicons-media-archive":"Archive Icon","dashicons-media-audio":"Audio Icon","dashicons-media-code":"Code Icon","dashicons-media-default":"Default Icon","dashicons-media-document":"Document Icon","dashicons-media-interactive":"Interactive Icon","dashicons-media-spreadsheet":"Spreadsheet Icon","dashicons-media-text":"Text Icon","dashicons-media-video":"Video Icon","dashicons-megaphone":"Megaphone Icon","dashicons-menu":"\u00cdcone do menu","dashicons-menu-alt":"Menu (alt) Icon","dashicons-menu-alt2":"Menu (alt2) Icon","dashicons-menu-alt3":"Menu (alt3) Icon","dashicons-microphone":"Microphone Icon","dashicons-migrate":"Migrate Icon","dashicons-minus":"Minus Icon","dashicons-money":"Money Icon","dashicons-money-alt":"Money (alt) Icon","dashicons-move":"Move Icon","dashicons-nametag":"Nametag Icon","dashicons-networking":"Networking Icon","dashicons-no":"No Icon","dashicons-no-alt":"No (alt) Icon","dashicons-open-folder":"Open Folder Icon","dashicons-palmtree":"Palm Tree Icon","dashicons-paperclip":"Paperclip Icon","dashicons-pdf":"PDF Icon","dashicons-performance":"Performance Icon","dashicons-pets":"Pets Icon","dashicons-phone":"Phone Icon","dashicons-pinterest":"Pinterest Icon","dashicons-playlist-audio":"Playlist Audio Icon","dashicons-playlist-video":"Playlist Video Icon","dashicons-plugins-checked":"Plugins Checked Icon","dashicons-plus":"Plus Icon","dashicons-plus-alt":"Plus (alt) Icon","dashicons-plus-alt2":"Plus (alt2) Icon","dashicons-podio":"Podio Icon","dashicons-portfolio":"Portfolio Icon","dashicons-post-status":"Post Status Icon","dashicons-pressthis":"Pressthis Icon","dashicons-printer":"Printer Icon","dashicons-privacy":"Privacy Icon","dashicons-products":"Products Icon","dashicons-randomize":"Randomize Icon","dashicons-reddit":"Reddit Icon","dashicons-redo":"Redo Icon","dashicons-remove":"Remove Icon","dashicons-rest-api":"REST API Icon","dashicons-rss":"RSS Icon","dashicons-saved":"Saved Icon","dashicons-schedule":"Schedule Icon","dashicons-screenoptions":"Screen Options Icon","dashicons-search":"Search Icon","dashicons-share":"Share Icon","dashicons-share-alt":"Share (alt) Icon","dashicons-share-alt2":"Share (alt2) Icon","dashicons-shield":"Shield Icon","dashicons-shield-alt":"Shield (alt) Icon","dashicons-shortcode":"Shortcode Icon","dashicons-slides":"Slides Icon","dashicons-smartphone":"Smartphone Icon","dashicons-smiley":"Smiley Icon","dashicons-sort":"Sort Icon","dashicons-sos":"Sos Icon","dashicons-spotify":"Spotify Icon","dashicons-star-empty":"Star Empty Icon","dashicons-star-filled":"Star Filled Icon","dashicons-star-half":"Star Half Icon","dashicons-sticky":"Sticky Icon","dashicons-store":"Store Icon","dashicons-superhero":"Superhero Icon","dashicons-superhero-alt":"Superhero (alt) Icon","dashicons-table-col-after":"Table Col After Icon","dashicons-table-col-before":"Table Col Before Icon","dashicons-table-col-delete":"Table Col Delete Icon","dashicons-table-row-after":"Table Row After Icon","dashicons-table-row-before":"Table Row Before Icon","dashicons-table-row-delete":"\u00cdcone de deletar linha da tabela","dashicons-tablet":"Tablet Icon","dashicons-tag":"Tag Icon","dashicons-tagcloud":"Tagcloud Icon","dashicons-testimonial":"Testimonial Icon","dashicons-text":"Text Icon","dashicons-text-page":"\u00cdcone de texto de p\u00e1gina","dashicons-thumbs-down":"Thumbs Down Icon","dashicons-thumbs-up":"Thumbs Up Icon","dashicons-tickets":"Tickets Icon","dashicons-tickets-alt":"\u00cdcone de tickets (alt)","dashicons-tide":"Tide Icon","dashicons-translation":"Translation Icon","dashicons-trash":"Trash Icon","dashicons-twitch":"\u00cdcone do Twitch","dashicons-twitter":"Twitter Icon","dashicons-twitter-alt":"\u00cdcone do Twitter (alt)","dashicons-undo":"Undo Icon","dashicons-universal-access":"Universal Access Icon","dashicons-universal-access-alt":"\u00cdcone de acesso universal (alt)","dashicons-unlock":"Unlock Icon","dashicons-update":"Update Icon","dashicons-update-alt":"\u00cdcone de atualizar","dashicons-upload":"Upload Icon","dashicons-vault":"Vault Icon","dashicons-video-alt":"\u00cdcone de v\u00eddeo (alt)","dashicons-video-alt2":"\u00cdcone de v\u00eddeo (alt2)","dashicons-video-alt3":"\u00cdcone de v\u00eddeo (alt3)","dashicons-visibility":"Visibility Icon","dashicons-warning":"Warning Icon","dashicons-welcome-add-page":"\u00cdcone de adicionar p\u00e1gina","dashicons-welcome-comments":"Comments Icon","dashicons-welcome-learn-more":"\u00cdcone de saiba mais","dashicons-welcome-view-site":"\u00cdcone de Ver Site","dashicons-welcome-widgets-menus":"\u00cdcone de widgets","dashicons-welcome-write-blog":"\u00cdcone de escrever","dashicons-whatsapp":"\u00cdcone do WhatsApp","dashicons-wordpress":"WordPress Icon","dashicons-wordpress-alt":"\u00cdcone WordPress (alt)","dashicons-xing":"Xing Icon","dashicons-yes":"Yes Icon","dashicons-yes-alt":"\u00cdcone Sim (alt)","dashicons-youtube":"\u00cdcone do Youtube"},"mimeTypeIcon":"https:\/\/estudioami.com\/wp-includes\/images\/media\/default.png","mimeTypes":{"jpg|jpeg|jpe":"image\/jpeg","gif":"image\/gif","png":"image\/png","bmp":"image\/bmp","tiff|tif":"image\/tiff","webp":"image\/webp","avif":"image\/avif","ico":"image\/x-icon","heic":"image\/heic","heif":"image\/heif","heics":"image\/heic-sequence","heifs":"image\/heif-sequence","asf|asx":"video\/x-ms-asf","wmv":"video\/x-ms-wmv","wmx":"video\/x-ms-wmx","wm":"video\/x-ms-wm","avi":"video\/avi","divx":"video\/divx","flv":"video\/x-flv","mov|qt":"video\/quicktime","mpeg|mpg|mpe":"video\/mpeg","mp4|m4v":"video\/mp4","ogv":"video\/ogg","webm":"video\/webm","mkv":"video\/x-matroska","3gp|3gpp":"video\/3gpp","3g2|3gp2":"video\/3gpp2","txt|asc|c|cc|h|srt":"text\/plain","csv":"text\/csv","tsv":"text\/tab-separated-values","ics":"text\/calendar","rtx":"text\/richtext","css":"text\/css","vtt":"text\/vtt","dfxp":"application\/ttaf+xml","mp3|m4a|m4b":"audio\/mpeg","aac":"audio\/aac","ra|ram":"audio\/x-realaudio","wav|x-wav":"audio\/wav","ogg|oga":"audio\/ogg","flac":"audio\/flac","mid|midi":"audio\/midi","wma":"audio\/x-ms-wma","wax":"audio\/x-ms-wax","mka":"audio\/x-matroska","rtf":"application\/rtf","pdf":"application\/pdf","class":"application\/java","tar":"application\/x-tar","zip":"application\/zip","gz|gzip":"application\/x-gzip","rar":"application\/rar","7z":"application\/x-7z-compressed","psd":"application\/octet-stream","xcf":"application\/octet-stream","doc":"application\/msword","pot|pps|ppt":"application\/vnd.ms-powerpoint","wri":"application\/vnd.ms-write","xla|xls|xlt|xlw":"application\/vnd.ms-excel","mdb":"application\/vnd.ms-access","mpp":"application\/vnd.ms-project","docx":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","docm":"application\/vnd.ms-word.document.macroEnabled.12","dotx":"application\/vnd.openxmlformats-officedocument.wordprocessingml.template","dotm":"application\/vnd.ms-word.template.macroEnabled.12","xlsx":"application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet","xlsm":"application\/vnd.ms-excel.sheet.macroEnabled.12","xlsb":"application\/vnd.ms-excel.sheet.binary.macroEnabled.12","xltx":"application\/vnd.openxmlformats-officedocument.spreadsheetml.template","xltm":"application\/vnd.ms-excel.template.macroEnabled.12","xlam":"application\/vnd.ms-excel.addin.macroEnabled.12","pptx":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","pptm":"application\/vnd.ms-powerpoint.presentation.macroEnabled.12","ppsx":"application\/vnd.openxmlformats-officedocument.presentationml.slideshow","ppsm":"application\/vnd.ms-powerpoint.slideshow.macroEnabled.12","potx":"application\/vnd.openxmlformats-officedocument.presentationml.template","potm":"application\/vnd.ms-powerpoint.template.macroEnabled.12","ppam":"application\/vnd.ms-powerpoint.addin.macroEnabled.12","sldx":"application\/vnd.openxmlformats-officedocument.presentationml.slide","sldm":"application\/vnd.ms-powerpoint.slide.macroEnabled.12","onetoc|onetoc2|onetmp|onepkg":"application\/onenote","oxps":"application\/oxps","xps":"application\/vnd.ms-xpsdocument","odt":"application\/vnd.oasis.opendocument.text","odp":"application\/vnd.oasis.opendocument.presentation","ods":"application\/vnd.oasis.opendocument.spreadsheet","odg":"application\/vnd.oasis.opendocument.graphics","odc":"application\/vnd.oasis.opendocument.chart","odb":"application\/vnd.oasis.opendocument.database","odf":"application\/vnd.oasis.opendocument.formula","wp|wpd":"application\/wordperfect","key":"application\/vnd.apple.keynote","numbers":"application\/vnd.apple.numbers","pages":"application\/vnd.apple.pages"},"admin_url":"https:\/\/estudioami.com\/wp-admin\/","ajaxurl":"https:\/\/estudioami.com\/wp-admin\/admin-ajax.php","nonce":"a42629c064","acf_version":"6.4.3","wp_version":"6.8.2","browser":"","locale":"pt_BR","rtl":false,"screen":"user","post_id":"user_0","validation":0,"editor":"classic","is_pro":false,"debug":false,"StrictMode":false};
+</script>
+<script type="07d90e1c98b74a0ca7d218bb-text/javascript">
+(function($) {
+	
+	// vars
+	var view = '';
+	
+	// add missing spinners
+	var $submit = $('input.button-primary');
+	if( !$submit.next('.spinner').length ) {
+		$submit.after('<span class="spinner"></span>');
+	}
+	
+})(jQuery);	
+</script>
+			<script type="07d90e1c98b74a0ca7d218bb-text/javascript">
+acf.doAction( 'prepare' );
+</script>
+	<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="07d90e1c98b74a0ca7d218bb-|49" defer></script></body>
+	</html>
+	
